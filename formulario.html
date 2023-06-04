@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simulador Avanzado</h1>
+
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <br>
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" required>
+      <br>
+      <label for="genero">Género:</label>
+      <select id="genero" required>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>
+      <br>
+      <button type="submit">Guardar</button>
+    </form>
+  
+    <div id="resultados">
+      <h2>Resultados:</h2>
+      <ul id="lista-resultados"></ul>
+    </div>
+  
+   <script src="./form.js"></script> 
+</body>
+</html>
